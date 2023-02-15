@@ -27,3 +27,30 @@ z = y = 20 - 10 - 5;
 console.log(z, y);
 const avg = (age + exp) / 2;
 console.log(age, exp, avg);
+
+const praveen = "praveen";
+const job = "software engineer";
+const dob = 2023 - 1997;
+
+//template literal
+const praveenInfo = `I'm ${praveen} , a ${dob} year old ${job}`;
+console.log(praveenInfo);
+
+console.log(`String
+multiple
+lines`);
+
+//if else
+const personAge = 17;
+const isOldEnough = personAge >= 18;
+const yearsleft = 18 - personAge;
+
+if (isOldEnough) {
+  console.log("eligible to vote");
+} else {
+  console.log(`Sarah not eligible to vote, she has to wait ${yearsleft} years`);
+}
+
+//type conversion
+const inputYear = "1997";
+console.log(Number(inputYear) + 10);
