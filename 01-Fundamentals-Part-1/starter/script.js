@@ -54,3 +54,24 @@ if (isOldEnough) {
 //type conversion
 const inputYear = "1997";
 console.log(Number(inputYear) + 10);
+
+//equality opearator
+// === does not perform type coercion where == performs type coercion
+//it is highly recommended to use === for comparisions
+const pageNo = "20";
+if (pageNo == 20) console.log(`there are ${pageNo} pages`);
+if (pageNo === 20) console.log(`there are ${pageNo} pages`);
+
+// const favActress = prompt("who is ur fav actress");
+//console.log(typeof favActress);
+
+// if (favActress === "jlo") console.log("she is a hottie");
+
+//logical operators
+const hasDriversLicense = true;
+const hasGoodVision = true;
+const shouldDrive = hasDriversLicense && hasGoodVision;
+if (shouldDrive) console.log("trustable driver");
+else {
+  console.log("paripondroo");
+}
