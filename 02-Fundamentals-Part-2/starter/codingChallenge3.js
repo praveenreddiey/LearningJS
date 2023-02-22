@@ -24,7 +24,7 @@ John.calcBMI();
 console.log(Mark.BMI);
 console.log(John.BMI);
 
-//or we can use with if condition
+//or we can use with if condition -- hell yeah
 
 const higherBMI =
   Mark.BMI > John.BMI

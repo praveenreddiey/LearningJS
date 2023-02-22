@@ -125,7 +125,7 @@ console.log(person.age);
 console.log(person.age);
 console.log(person.age);
 
-//challenge
+//another challenge
 
 const driversLicenseStatus = () => {
   var status = this.hasDriversLicense ? "a" : "no";
