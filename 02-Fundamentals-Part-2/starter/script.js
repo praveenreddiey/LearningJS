@@ -56,7 +56,7 @@ const movies = new Array(
   friends
 );
 
-//unline java, we can have different types inside an array
+//unlike java, we can have different data types inside an array
 
 const movieDetails = ["sitaramam", 2022];
 console.log(movieDetails);
@@ -66,7 +66,7 @@ console.log(movies);
 //exercise
 const calcAge1 = (birthYear) => 2023 - birthYear;
 
-const years = [1997, 1996, 1995];
+//const years = [1997, 1996, 1995];
 //const years = new Array(1997,'praveen');
 for (let i = 0; i < years.length; i++) {
   const age = calcAge1(years[i]);
@@ -132,3 +132,24 @@ const driversLicenseStatus = () => {
   return `${person.p_name} is a ${person.age} years old and he has ${status} drivers license`;
 };
 console.log(driversLicenseStatus());
+
+//for loops and bla bla bla
+
+const praveenArray = [
+  "praveen",
+  "reddy",
+  2023 - 1997,
+  "software developer",
+  friends,
+];
+const praveenTypes = [praveenArray.length];
+for (let i = 0; i < praveenArray.length; i++) {
+  // console.log(praveenArray[i], typeof praveenArray[i]);
+
+  //filling an array
+  // praveenTypes[i] = typeof praveenArray[i];
+  praveenTypes.push(typeof praveenArray[i]);
+}
+console.log(praveenTypes);
+
+//continue and break
